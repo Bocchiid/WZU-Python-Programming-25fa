@@ -35,4 +35,3 @@ if __name__ == '__main__':
     content = read_file(filename)  # 调用函数返回字典类型的数据
     amount_results = count_of_words(content)
     print('文章共有单词{}个，其中不重复单词{}个'.format(*amount_results))
-    
