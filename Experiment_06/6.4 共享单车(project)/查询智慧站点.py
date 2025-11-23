@@ -66,4 +66,3 @@ if __name__ == '__main__':
     stations_ls = csv_to_list('/data/bigfiles/stations.csv')
     clean_data(stations_ls)
     print(query_smart(stations_ls)[:n])
- 
