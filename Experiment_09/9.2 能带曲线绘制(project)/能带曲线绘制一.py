@@ -28,4 +28,4 @@ if __name__ == '__main__':
     data = read_file(filename)        # 读文件到二维列表
     plot_band_a(data)                 # 调用函数绘制曲线
     plt.savefig("result/result.jpg")  # 保存成图片
-    plt.show()  
+    plt.show() 
