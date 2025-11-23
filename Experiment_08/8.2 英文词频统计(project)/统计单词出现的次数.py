@@ -57,4 +57,3 @@ if __name__ == '__main__':
     frequency_result = word_frequency(content)  # 统计词频
     n = int(input())
     top_ten_words(frequency_result, n)
-    
