@@ -32,4 +32,3 @@ if __name__ == '__main__':
     content = read_file(filename)  # 调用函数返回字典类型的数据
     n = int(input())
     print(content[:n])
-    
