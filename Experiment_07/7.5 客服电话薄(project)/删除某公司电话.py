@@ -24,4 +24,3 @@ if __name__ == '__main__':
     phone_dic = read_txt(filename)
     comp = input()                      # 输入要删除信息的公司名
     print(del_number(comp, phone_dic))  # 输出删除结果提示信息
- 
