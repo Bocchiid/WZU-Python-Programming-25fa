@@ -63,4 +63,3 @@ if __name__ == '__main__':
     word_dic = create_dict(file)  # 调用函数返回字典类型的数据
     print('载入字典数据成功！')
     sentence_to_words()           # 翻译句子
-    
